@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    min-width: 1366px;
+    min-height: 600px;
+    font-family: 'Microsoft YaHei';
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.head-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../img/bgm.png') no-repeat center;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -100;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -ms-filter: blur(8px);
+}
+
+.container-box {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+header img {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.line {
+    width: 500px;
+    height: 2px;
+    background-color: #000;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+.wellcom-box {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.top-pragraph {
+    font-size: 50px;
+    font-weight: 400;
+    opacity: 0;
+    margin-bottom: 18px;
+}
+
+.bottom-pragraph {
+    font-size: 20px;
+    opacity: 0;
+    margin-top: 12px;
+}
+
+.banner-box {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+}
+
+.banner-start {
+    margin-left: 50%;
+    margin-top: 55px;
+    transform: translate(-180px, 0);
+}
+
+.list-box {
+    width: 100%;
+    height: 200px;
+}
+
+.list-box ul {
+    width: 100%;
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translate(-425px, 0);
+}
+
+.banner-box ul li {
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.banner-box ul li:hover {
+    box-shadow: 0 0 10px #888;
+}
+
+.title-box {
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    writing-mode: tb-rl;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.red-title {
+    width: 275px;
+    height: 20px;
+    background-color: #eb574c;
+    color: #fff;
+    text-align: center;
+}
+
+.hope-family {
+    height: 650px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hope-family .left-box {
+    display: inline-block;
+    width: 410px;
+    line-height: 25px;
+}
+
+.hope-family .right-box {
+    display: inline-block;
+    width: 950px;
+    position: absolute;
+}
+
+.pos-box-1 {
+    float: right;
+}
+
+.hope-family .left-box .title-we-are-efa {
+    color: #eb574c;
+    font-size: 20px;
+    margin-left: 36px;
+    line-height: 30px;
+}
+
+.hope-family .left-box .hope-we-are-efa {
+    font-size: 16px;
+    margin-left: 36px;
+    margin-top: 40px;
+}
+
+.hope-family .right-box img {
+    float: right;
+}
+
+.ct-dream {
+    margin-top: 40px;
+}
+
+.introduct-efa {
+    height: 870px;
+    margin-top: 30px;
+}
+
+.introduct-efa .left-box {
+    width: 490px;
+    margin-left: 80px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.introduct-efa .left-box p {
+    line-height: 30px;
+}
+
+.introduct-efa .right-box {
+    width: 750px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.introduce-efa-title {
+    text-align: center;
+    font-size: 30px;
+    color: #b31e23;
+}
+
+.introduce-efa-p {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.pos-box-2 {
+    margin-top: -5px;
+    margin-left: -80px;
+}
+
+.ct2-pos {
+    position: absolute;
+    top: 534px;
+    left: 555px;
+}
+
+.picture4-pos {
+    position: absolute;
+    top: 635px;
+    left: 65px;
+}
+
+.community-efa {
+    height: 535px;
+    margin-top: 50px;
+}
+
+.community-efa .left-box {
+    width: 640px;
+    margin-left: 75px;
+    margin-right: 110px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.community-efa .right-box {
+    width: 535px;
+    display: inline-block;
+    position: absolute;
+}
+
+.community-efa .left-box p:nth-child(1) {
+    margin-bottom: 45px;
+}
+
+.community-efa .left-box strong {
+    font-weight: 400;
+    color: #203fdd;
+}
+
+.community-efa .left-box em {
+    color: #b31e23;
+    font-style: inherit;
+}
+
+.photo-efa {
+    height: 750px;
+}
+
+.photo-efa .left-box {
+    width: 680px;
+    display: inline-block;
+}
+
+.photo-efa .right-box {
+    width: 680px;
+    display: inline-block;
+    position: absolute;
+    padding-top: 150px;
+}
+
+.pos-box-3 {
+    float: right;
+}
+
+.photo-introduce-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.photo-introduce {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Hallowmas {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.love-box img {
+    width: 100%;
+}
+
+.love-you-box {
+    width: 1135px;
+    margin: 0 auto;
+    font-size: 18px;
+    height: 100px;
+}
+
+.love-you-box .title {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    color: #1e29b3;
+    position: relative;
+}
+
+.love-you-box .paragraph {
+    margin-top: 20px;
+}
+
+.love-you-box .paragraph:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.pos-box-4 {
+    float: right;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
