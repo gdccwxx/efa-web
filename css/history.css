@@ -9,11 +9,14 @@ html {
     min-width: 1366px;
     min-height: 600px;
     font-family: 'Microsoft YaHei';
+    letter-spacing: 1px;
 }
 
 body {
     width: 100%;
     height: 100%;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 header {
@@ -58,20 +61,25 @@ header img {
     margin: 0 auto;
 }
 
-ul li {
+.head-box ul li {
     list-style: none;
     float: left;
     margin-left: 33px;
     margin-top: 45px;
     text-align: center;
+    transition: all 0.5s;
 }
 
-ul li p {
+.head-box ul li:hover {
+    transform: scale(1.1);
+}
+
+.head-box ul li p {
     margin-top: 5px;
     color: #ffffff;
 }
 
-ul li a {
+.head-box ul li a {
     text-decoration: none;
 }
 
@@ -86,13 +94,567 @@ ul li a {
 }
 
 .left-box {
-    width: 49%;
+    width: 50%;
     height: 100%;
     display: inline-block;
 }
 
 .right-box {
-    width: 49%;
+    position: absolute;
+    width: 50%;
     height: 100%;
+    right: 0;
     display: inline-block;
+}
+
+.red-title-year {
+    color: #b31e23;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.year-2010-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pos-2010-photo-box {
+    margin-top: 40px;
+    width: 632px;
+    height: 376px;
+}
+
+.year-2010 .left-box p:nth-child(3) {
+    margin-top: 20px;
+}
+
+.year-2010 .left-box p:nth-child(4) {
+    margin-top: 10px;
+}
+
+.year-2010 .left-box p:nth-child(5) {
+    margin-top: 30px;
+}
+
+.year-2010 .right-box div {
+    width: 540px;
+    float: right;
+}
+
+.year-2010 .right-box ul {
+    display: block;
+    float: right;
+}
+
+.year-2010 .right-box div {
+    margin-right: 30px;
+}
+
+.year-2010 .right-box div p:nth-child(2) {
+    margin-top: 30px;
+}
+
+.year-2010 .right-box img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.year-2010 .right-box img:first-child {
+    margin-top: 10px;
+}
+
+.year-2011 .left-box div img {
+    margin-left: 35px;
+    margin-top: 15px;
+    float: left;
+}
+
+.year-2011 .left-box div {
+    display: block;
+}
+
+.year-2011 .left-box div ul {
+    float: left;
+    display: block;
+    margin-top: 35px;
+}
+
+.year-2011 .left-box p {
+    clear: both;
+    margin-left: 35px;
+}
+
+.year-2011 .left-box p:not(:last-child) {
+    font-size: 20px;
+    color: #b31e23;
+    line-height: 40px;
+}
+
+.year-2011 .right-box div:first-child p:first-child {
+    margin-top: 20px;
+}
+
+.year-2011 .right-box div:nth-child(1) {
+    width: 97%;
+}
+
+.year-2011 .right-box div:nth-child(2) {
+    width: 70%;
+    margin-right: 30px;
+    float: right;
+}
+
+.year-2011 .right-box div:nth-child(3) {
+    float: right;
+    width: 55%;
+    margin-right: -1em;
+}
+
+.pos-2011-photo-box {
+    position: absolute;
+    width: 508px;
+    height: 455px;
+    right: 0;
+    bottom: 0;
+}
+
+.pos-picture-2011 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-150px, -150px);
+}
+
+.pos-efa-2011 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.left-box-2012 {
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.right-box-2012 {
+    width: 766px;
+    position: absolute;
+    left: 600px;
+    top: 0;
+}
+
+.pos-2012-year {
+    position: absolute;
+    left: 475px;
+    top: 60px;
+}
+
+.year-2012 .left-box-2012 div:first-child {
+    width: 385px;
+    float: left;
+}
+
+.year-2012 .left-box-2012 div:first-child p {
+    padding-left: 10px;
+}
+
+.year-2012 .left-box-2012 div:nth-child(2) {
+    float: left;
+    width: 190px;
+    padding-left: 25px;
+    margin-top: 300px;
+}
+
+.year-2012 .right-box-2012 div:first-child {
+    margin-left: 120px;
+    float: left;
+    width: 590px;
+    padding-top: 65px;
+}
+
+.year-2012 .right-box-2012 div:nth-child(2) {
+    float: left;
+    width: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.year-2012 .right-box-2012 div:nth-child(2) img {
+    margin-top: 40px;
+}
+
+.year-2012 .right-box-2012 img:nth-child(3) {
+    position: absolute;
+    left: -186px;
+    top: 747px;
+}
+
+.year-2012 .right-box-2012 img:nth-child(4) {
+    position: absolute;
+    left: 63px;
+    top: 368px;
+}
+
+.left-box-2013 {
+    width: 540px;
+    float: left;
+}
+
+.left-box-2013 ul {
+    display: block;
+    float: left;
+    width: 70px;
+    padding-right: 30px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.left-box-2013 div {
+    float: left;
+    width: 360px;
+    margin-top: 40px;
+}
+
+.left-box-2013 img {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.right-box-2013 {
+    width: 826px;
+    float: left;
+}
+
+.right-box-2013-div {
+    height: 455px;
+    position: relative;
+}
+
+.right-box-2013-div img:first-child {
+    position: absolute;
+    top: 100px;
+}
+
+.picture-2013-8 {
+    position: absolute;
+    top: 25px;
+    left: 405px;
+}
+
+.right-box-2013-div div {
+    position: absolute;
+    width: 360px;
+    height: 80px;
+    top: 330px;
+    left: 390px;
+}
+
+.pos-we-2013 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.right-box-2013 .bottom-box {
+    width: 100%;
+    height: 313px;
+    position: relative;
+}
+
+.right-box-2013 .bottom-box .photo-box {
+    position: absolute;
+    width: 449px;
+    height: 280px;
+    left: 90px;
+    top: 0;
+}
+
+.right-box-2013 .bottom-box div p {
+    right: 0;
+    top: 0;
+}
+
+.bran-set-here {
+    position: absolute;
+    width: 230px !important;
+    height: 316px !important;
+    left: 575px !important;
+    top: 30px !important;
+}
+
+.left-box-2014 {
+    float: left;
+    width: 610px;
+    margin-top: 15px;
+}
+
+.left-box-2014 .photo-box {
+    margin-left: 30px;
+}
+
+.photo-box {
+    overflow: hidden;
+}
+
+.left-box-2014 div:nth-child(2) {
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 45px;
+}
+
+.left-box-2016 .photo-box {
+    width: 454px;
+    height: 326px;
+}
+
+.right-box-2014 {
+    float: right;
+    width: 640px;
+    margin-top: 15px;
+}
+
+.right-box-2014 div:first-child {
+    padding-left: 60px;
+    width: 485px;
+    padding-right: 30px;
+    float: left;
+}
+
+.right-box-2014 ul {
+    float: left;
+    margin-left: -10px;
+    margin-top: 70px;
+}
+
+.right-box-2014 img {
+    margin-top: 50px;
+}
+
+.pos-2014-we {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.good-morning {
+    float: left;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.year-2014-img {
+    margin-top: 25px;
+}
+
+.left-box-2016 {
+    width: 490px;
+    height: 100%;
+    float: left;
+}
+
+.middle-box-2016 {
+    width: 325px;
+    height: 100%;
+    float: left;
+    margin-left: 40px;
+    padding-top: 80px;
+}
+
+.middle-box-2016 img {
+    margin-left: 50px;
+}
+
+.right-box-2016 {
+    width: 490px;
+    height: 100%;
+    float: left;
+    margin-left: 15px;
+}
+
+.right-box-2016 ul {
+    float: left;
+    margin-top: 45px;
+}
+
+.right-box-2016 img {
+    float: left;
+}
+
+.right-box-2016 div {
+    padding-left: 65px;
+}
+
+.right-box-2016 p {
+    clear: both;
+}
+
+.year-2016-img {
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.left-box-2016 div:nth-child(2) {
+    margin-left: 30px;
+}
+
+.left-box-2016 div:nth-child(2) p:first-child {
+    margin-top: 15px;
+}
+
+.left-box-2016 div:nth-child(2) p:last-child {
+    margin-top: 15px;
+}
+
+.left-box-2016 .photo-box {
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+}
+
+.left-box-2017 {
+    width: 475px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+.middle-box-2017 {
+    width: 320px;
+    position: absolute;
+    left: 475px;
+}
+
+.right-box-2017 {
+    width: 555px;
+    position: absolute;
+    left: 805px;
+    float: left;
+}
+
+.right-box-2017 .photo-box {
+    width: 540px;
+    height: 387px;
+}
+
+.pos-we-2016 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.left-box-2017 div:first-child {
+    float: left;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.left-box-2017 ul {
+    float: left;
+    margin-top: 45px;
+}
+
+.left-box-2017 p {
+    clear: both;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.pos-picture-2017-top {
+    margin-top: 180px;
+    margin-left: 30px;
+}
+
+.middle-box-2017 div {
+    width: 100%;
+    height: 290px;
+}
+
+.middle-box-2017 div p {
+    float: left;
+    writing-mode: tb-rl;
+    margin-top: 30px;
+}
+
+.pos-picture-2017 {
+    float: left;
+    margin-top: 120px;
+}
+
+.pos-2017-we {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.right-box-2017 div {
+    margin-top: 30px;
+}
+
+.photo-2017-right {
+    float: left;
+    margin-left: 60px;
+    margin-top: 17px;
+}
+
+.right-box-2017 div p {
+    float: left;
+    writing-mode: tb-rl;
+    width: 250px;
+    height: 330px;
+    margin-left: 40px;
+}
+
+.right-box-2017 .photo-box {
+    position: absolute;
+    right: -5px;
+    bottom: -408px;
+}
+
+.year-2018 {
+    margin-left: 50%;
+    transform: translate(-302px, 130px);
+}
+
+.row-writing {
+    writing-mode: tb-rl;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.photo-box div {
+    width: 800% !important;
+}
+
+.photo-box li {
+    position: absolute;
+    list-style: none;
+}
+
+.photo-box img {
+    transition: opacity 1s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.transition-opacity {
+    opacity: 1 !important;
+    z-index: 99;
+}
+
+i {
+    font-style: normal;
+}
+
+em {
+    font-style: normal;
+    color: #06aad4;
 }
