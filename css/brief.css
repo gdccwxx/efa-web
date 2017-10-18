@@ -171,6 +171,7 @@ body {
     height: 760px;
     margin: 0 auto;
     margin-top: 50px;
+    position: relative;
 }
 
 .learning-left-box {
@@ -196,10 +197,334 @@ body {
 
 .learning-bottom-box i {
     float: right;
+    font-style: normal;
 }
 
 .we-are-efa {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 15px;
+    bottom: 10px;
+}
+
+.seven-oral {
+    position: absolute;
+    left: 125px;
+}
+
+.title-oral {
+    position: absolute;
+    color: #ee1717;
+    font-size: 30px;
+    top: 235px;
+}
+
+.pra-oral {
+    position: absolute;
+    left: 40px;
+    top: 300px;
+    text-indent: 2em;
+    display: block;
+    width: 330px;
+}
+
+.confidenc-oral {
+    position: absolute;
+    left: 40px;
+    top: 490px;
+}
+
+.oral-tag {
+    position: absolute;
+    top: 520px;
+    left: 225px;
+}
+
+.for-oral {
+    position: absolute;
+    top: 30px;
+    left: 365px;
+    text-indent: 2em;
+}
+
+.picture-oral {
+    position: absolute;
+    left: 460px;
+    top: 150px;
+}
+
+.speaking-oral {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 600px;
+}
+
+.speaking-oral img {
+    float: left;
+}
+
+.speaking-oral .speaking {
+    float: left;
+    width: 515px;
+    margin-left: 30px;
+}
+
+.speaking-oral .speaking i {
+    float: right;
+}
+
+.external-talking h3 {
+    color: #1f9032;
+    font-size: 30px;
+    font-weight: 300;
+    transform: rotate(-9deg);
+    transform-origin: 0;
+    width: 160px;
+    position: absolute;
+    top: 340px;
+    left: 100px;
+}
+
+.external-talking .top-box {
+    height: 340px;
+}
+
+.external-talking .top-box .picture {
+    position: absolute;
+    left: 545px;
+    top: 70px;
+}
+
+.external-talking .top-box .box-pra {
+    position: absolute;
+    left: 523px;
+    top: 250px;
+    font-size: 30px;
+    color: #40b904;
+    line-height: 43px;
+}
+
+.external-talking .middle-box {
+    height: 325px;
+    margin-top: 35px;
+}
+
+.external-talking .middle-box .speaking {
+    width: 380px;
+    float: left;
+}
+
+.external-talking .middle-box img {
+    float: left;
+    margin-left: 35px;
+}
+
+.external-talking .bottom-box {
+    height: 50px;
+    width: 520px;
+}
+
+.external-talking .bottom-box p {
+    float: left;
+}
+
+.publicity-talking .top-box {
+    height: 370px;
+}
+
+.publicity-talking .middle-box {
+    height: 50px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.publicity-talking .bottom-box {
+    height: 180px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.publicity-talking .bottom-box img {
+    float: left;
+}
+
+.publicity-talking .bottom-box img:not(:last-child) {
+    margin-right: 75px;
+}
+
+.publicity-talking .speaking {
+    width: 345px;
+    height: 360px;
+    float: left;
+    margin-left: 50px;
+}
+
+.publicity-talking .speaking-img {
+    float: left;
+    margin-left: 75px;
+}
+
+.scheme-talking .top-box {
+    height: 175px;
+}
+
+.scheme-talking .top-box .left-box {
+    width: 210px;
+    font-size: 30px;
+    color: #2da0a9;
+    float: left;
+    margin-right: 40px;
+}
+
+.scheme-talking .top-box .middle-box {
+    float: left;
+}
+
+.scheme-talking .top-box .right-box {
+    width: 265px;
+    float: left;
+    margin-left: 40px;
+}
+
+.scheme-talking .top-box .right-box p {
+    margin-top: 55px;
+}
+
+.scheme-talking .middle-box {
+    height: 85px;
+    margin-bottom: 25px;
+}
+
+.scheme-talking .middle-box p {
+    padding-top: 25px;
+}
+
+.scheme-talking .bottom-box {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.scheme-talking .bottom-box img {
+    float: left;
+}
+
+.scheme-talking .bottom-box div {
+    float: left;
+    width: 165px;
+    margin-left: 30px;
+}
+
+.writing-taking .left-box {
+    width: 400px;
+    float: left;
+}
+
+.writing-taking .left-box img {
+    margin-bottom: 50px;
+}
+
+.writing-taking .left-box p {
+    clear: both;
+    text-indent: 2em;
+}
+
+.writing-taking .right-box {
+    margin-left: 80px;
+    width: 240px;
+    float: left;
+}
+
+.writing-taking .right-box img:first-child {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.writing-taking .right-box img:last-child {
+    margin-top: 40px;
+}
+
+.chairman-talking .top-box {
+    height: 190px;
+}
+
+.chairman-talking .top-box .left-box {
+    float: left;
+    width: 415px;
+}
+
+.chairman-talking .top-box .left-box i {
+    margin-top: -30px;
+}
+
+.chairman-talking .top-box .right-box {
+    float: left;
+    margin-left: 40px;
+    width: 190px;
+}
+
+.chairman-talking .middle-box {
+    height: 55px;
+    margin-top: 50px;
+}
+
+.chairman-talking .middle-box i {
+    margin-top: -30px;
+}
+
+.chairman-talking .bottom-box {
+    margin-top: 50px;
+}
+
+.chairman-talking .bottom-box img {
+    float: left;
+}
+
+.chairman-talking .bottom-box img:not(:last-child) {
+    margin-right: 75px;
+}
+
+.eva-talking .top-box {
+    height: 225px;
+}
+
+.eva-talking .top-box .left-box {
+    width: 400px;
+    height: 225px;
+    float: left;
+}
+
+.eva-talking .top-box img {
+    float: left;
+    margin-left: 55px;
+}
+
+.eva-talking {
+    margin-top: 120px;
+}
+
+.eva-talking .bottom-box {
+    height: 345px;
+    margin-top: 20px;
+}
+
+.eva-talking .bottom-box .left-box {
+    width: 185px;
+    float: left;
+}
+
+.eva-talking .bottom-box .left-box p {
+    clear: both;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.eva-talking .bottom-box .right-box {
+    float: left;
+    margin-left: 30px;
+}
+
+i {
+    font-style: normal;
+    float: right;
 }

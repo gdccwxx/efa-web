@@ -404,10 +404,12 @@ header img {
     overflow: hidden;
 }
 
-.left-box-2014 div:nth-child(2) {
-    padding-left: 50px;
-    padding-right: 20px;
-    padding-top: 45px;
+.box-2014-pos {
+    position: absolute;
+    width: 540px;
+    height: 210px;
+    top: 500px;
+    left: 30px;
 }
 
 .left-box-2016 .photo-box {
